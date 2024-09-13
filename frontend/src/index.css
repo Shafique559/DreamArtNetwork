@@ -1,0 +1,35 @@
+/* stylelint-disable @tailwind */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Roboto Serif", serif;
+}
+.logo{
+    width: 60px;
+}
+.menu li a{
+    color: green;
+}
+.menu li a:hover{
+    background-color: green;
+    color: white;
+}
+
+.card{
+    background-color:green;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+}
+.para:hover{
+    color: white;
+    cursor: pointer;
+}
+.program:hover{
+ cursor: pointer;
+ box-shadow: 0px 5px 10px black;
+}
+/* stylelint-enable */
